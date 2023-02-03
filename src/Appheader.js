@@ -13,28 +13,28 @@ export default function AppHeader() {
 
   return (
     <Navbar bg="light" expand="lg">
-      <img className="App-logo mx-auto" src={logo} />
-      <Navbar.Brand href="/">Bicon</Navbar.Brand>
+      <Image className="App-logo mx-auto" src={logo} />
+      <Navbar.Brand href="/bicon/">Bicon</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-          <Nav.Link to="/">Home</Nav.Link>
-          <NavLink to='/' exact={true}>
+          <Nav.Link to="/bicon/">Home</Nav.Link>
+          <Nav.Link to='/bicon/' exact={true}>
    <i aria-hidden="true" className="home  icon" ></i>
    Home
- </NavLink>
+ </Nav.Link>
           <Nav.Link
-            href="/technology"
+            href="/bicon/technology"
             className={({ isActive }) =>
               isActive ? activeClassName : undefined
             }
           >
             Techonology
           </Nav.Link>
-          <Nav.Link to="/consulting">Consulting</Nav.Link>
-          <Nav.Link to="/about">About Us</Nav.Link>
+          <Nav.Link to="/bicon/consulting">Consulting</Nav.Link>
+          <Nav.Link to="/bicon/about">About Us</Nav.Link>
           <Nav.Link
             className="bg-green-500 font-bold"
-            to="/contact"
+            to="/bicon/contact"
             style={(isActive) => ({
               color: isActive ? "green" : "blue",
             })}

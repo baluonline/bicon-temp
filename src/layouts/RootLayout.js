@@ -11,16 +11,16 @@ export default function RootLayout() {
     <div className="root-layout">
       <Navbar bg="light" expand="lg">
         <Container>
-          <img href="/" className="App-logo" src={logo} />
-          <Navbar.Brand href="/">Bicon</Navbar.Brand>
+          <img href="/bicon" className="App-logo" src={logo} />
+          <Navbar.Brand href="/bicon">Bicon</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/technology">Techonology</Nav.Link>
-              <Nav.Link href="/consulting">Consulting</Nav.Link>
-              <Nav.Link href="/about">About Us</Nav.Link>
-              <Nav.Link href="/contact">Contact Us</Nav.Link>
+              <Nav.Link href="/bicon">Home</Nav.Link>
+              <Nav.Link href="/bicon/technology">Techonology</Nav.Link>
+              <Nav.Link href="/bicon/consulting">Consulting</Nav.Link>
+              <Nav.Link href="/bicon/about">About Us</Nav.Link>
+              <Nav.Link href="/bicon/contact">Contact Us</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

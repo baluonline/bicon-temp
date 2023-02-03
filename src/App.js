@@ -1,5 +1,6 @@
 import {
   createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
   Route,
   RouterProvider,
@@ -12,7 +13,7 @@ import Faq from "./pages/help/Faq";
 import Contact from "./pages/help/Contact";
 import NotFound from "./pages/NotFound";
 import Technology from "./pages/Technology";
-import Consulting from "./pages/Consulting"
+import Consulting from "./pages/Consulting";
 
 // layouts
 import RootLayout from "./layouts/RootLayout";
@@ -25,17 +26,18 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route exact path="/" element={<RootLayout />}>
       <Route exact path="/" index element={<Home />} />
-      <Route path="/technology" element={<Technology/>} />
-      <Route path="consulting" element={<Consulting />} />
-      <Route path="Contact" element={<div>Contact</div>} />
-      <Route path="about" element={<About />} />
+      <Route path="/technology" element={<Technology />} />
+      <Route path="/consulting" element={<Consulting />} />
+      <Route path="/contact" element={<div>Contact</div>} />
+      <Route path="/about" element={<About />} />
       <Route path="help" element={<HelpLayout />}>
         <Route path="faq" element={<Faq />} />
         <Route path="contact" element={<Contact />} />
       </Route>
       <Route path="*" element={<NotFound />} />
     </Route>
-  )
+  ),
+  { basename: "/bicon" },
 );
 
 function App() {
