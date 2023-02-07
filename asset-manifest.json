@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba035d5b.css",
-    "main.js": "/static/js/main.8c1d46b1.js",
-    "static/media/logo.png": "/static/media/logo.2ea14480def667c1944b.png",
-    "static/media/off_tech.png": "/static/media/off_tech.89ef14d6d46c79c1e5fe.png",
-    "static/media/consulting.png": "/static/media/consulting.a5e7469de79434487731.png",
-    "static/media/tech_wrking_2.png": "/static/media/tech_wrking_2.e90822dbfa781b29d1db.png",
-    "static/media/aboutus_banner_1.png": "/static/media/aboutus_banner_1.598e505a87b9c89bb6a3.png",
-    "index.html": "/index.html",
-    "main.ba035d5b.css.map": "/static/css/main.ba035d5b.css.map",
-    "main.8c1d46b1.js.map": "/static/js/main.8c1d46b1.js.map"
+    "main.css": "https://biconusa.com/static/css/main.ba035d5b.css",
+    "main.js": "https://biconusa.com/static/js/main.689d7108.js",
+    "static/media/logo.png": "https://biconusa.com/static/media/logo.2ea14480def667c1944b.png",
+    "static/media/off_tech.png": "https://biconusa.com/static/media/off_tech.89ef14d6d46c79c1e5fe.png",
+    "static/media/consulting.png": "https://biconusa.com/static/media/consulting.a5e7469de79434487731.png",
+    "static/media/tech_wrking_2.png": "https://biconusa.com/static/media/tech_wrking_2.e90822dbfa781b29d1db.png",
+    "static/media/aboutus_banner_1.png": "https://biconusa.com/static/media/aboutus_banner_1.598e505a87b9c89bb6a3.png",
+    "index.html": "https://biconusa.com/index.html",
+    "main.ba035d5b.css.map": "https://biconusa.com/static/css/main.ba035d5b.css.map",
+    "main.689d7108.js.map": "https://biconusa.com/static/js/main.689d7108.js.map"
   },
   "entrypoints": [
     "static/css/main.ba035d5b.css",
-    "static/js/main.8c1d46b1.js"
+    "static/js/main.689d7108.js"
   ]
 }
