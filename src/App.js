@@ -36,8 +36,7 @@ const router = createBrowserRouter(
       </Route>
       <Route path="*" element={<NotFound />} />
     </Route>
-  ),
-  { basename: "/bicon" },
+  )
 );
 
 function App() {
