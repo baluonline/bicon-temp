@@ -14,9 +14,10 @@
     margin-inline-end: 10px;
     /* animation: App-logo-spin infinite 20s linear; */
   }
-  .nav-btn-contact{
-    align-items:flex-start;
-      }
+
+  .nav-btn-contact {
+    align-items: flex-start;
+  }
 
 }
 
@@ -39,11 +40,38 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
-.nav-btn-contact{
+
+.nav-btn-contact {
   right: 10px;
   position: absolute;
+}
+
+header {
+  height: 50px;
+  flex-shrink: 0;
+  background-color: #037cf5;
+}
+
+footer {
+  background-color: #F3F3F3;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    /* position:relative; */
+    bottom:0;
+    width:100%;
+}
+
+main {
+  flex: 1 0 auto;
+  margin: 20px;
+}
+.root-layout{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
