@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "bicon-temp/static/css/main.7a1d57cf.css",
-    "main.js": "bicon-temp/static/js/main.7b6bb9de.js",
-    "static/media/logo.png": "bicon-temp/static/media/logo.2ea14480def667c1944b.png",
-    "static/media/off_tech.png": "bicon-temp/static/media/off_tech.89ef14d6d46c79c1e5fe.png",
-    "static/media/consulting.png": "bicon-temp/static/media/consulting.a5e7469de79434487731.png",
-    "static/media/tech_wrking_2.png": "bicon-temp/static/media/tech_wrking_2.e90822dbfa781b29d1db.png",
-    "static/media/about_tech.png": "bicon-temp/static/media/about_tech.0fb9a70378f7bf8fac43.png",
-    "static/media/aboutus_banner_1.png": "bicon-temp/static/media/aboutus_banner_1.598e505a87b9c89bb6a3.png",
-    "static/media/about_help.png": "bicon-temp/static/media/about_help.be4a6384fbd557bcb132.png",
-    "index.html": "bicon-temp/index.html",
-    "main.7a1d57cf.css.map": "bicon-temp/static/css/main.7a1d57cf.css.map",
-    "main.7b6bb9de.js.map": "bicon-temp/static/js/main.7b6bb9de.js.map"
+    "main.css": "/static/css/main.7a1d57cf.css",
+    "main.js": "/static/js/main.ac2d91a8.js",
+    "static/media/logo.png": "/static/media/logo.2ea14480def667c1944b.png",
+    "static/media/off_tech.png": "/static/media/off_tech.89ef14d6d46c79c1e5fe.png",
+    "static/media/consulting.png": "/static/media/consulting.a5e7469de79434487731.png",
+    "static/media/tech_wrking_2.png": "/static/media/tech_wrking_2.e90822dbfa781b29d1db.png",
+    "static/media/about_tech.png": "/static/media/about_tech.0fb9a70378f7bf8fac43.png",
+    "static/media/aboutus_banner_1.png": "/static/media/aboutus_banner_1.598e505a87b9c89bb6a3.png",
+    "static/media/about_help.png": "/static/media/about_help.be4a6384fbd557bcb132.png",
+    "index.html": "/index.html",
+    "main.7a1d57cf.css.map": "/static/css/main.7a1d57cf.css.map",
+    "main.ac2d91a8.js.map": "/static/js/main.ac2d91a8.js.map"
   },
   "entrypoints": [
     "static/css/main.7a1d57cf.css",
-    "static/js/main.7b6bb9de.js"
+    "static/js/main.ac2d91a8.js"
   ]
 }
