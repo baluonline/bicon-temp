@@ -59,19 +59,36 @@ header {
 
 footer {
   background-color: #F3F3F3;
-    padding-top: 10px;
-    padding-bottom: 0px;
-    /* position:relative; */
-    bottom:0;
-    width:100%;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  /* position:relative; */
+  bottom: 0;
+  width: 100%;
 }
 
 main {
   flex: 1 0 auto;
   margin: 20px;
 }
-.root-layout{
+
+.root-layout {
   display: flex;
   flex-direction: column;
   height: 100vh;
+}
+
+.contact-us-header {
+  right: 10px;
+  position: absolute;
+  margin: 10px;
+  margin-inline: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-us-header {
+    display: flex;
+    width: fit-content;
+    /* right: 100px; */
+    margin-inline: auto;
+  }
 }
