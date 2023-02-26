@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import logo from "..//images/logo.png";
 import "../styles/footer.scss";
 import Footer from "./Footer";
-
+import Button from 'react-bootstrap/Button';
 
 export default function RootLayout() {
   const navigate = useNavigate();
@@ -36,24 +36,22 @@ export default function RootLayout() {
                 <Nav.Link as={Link} to="/about">
                   About Us
                 </Nav.Link>
-                {/* <Nav.Link as={Link} to="/contact">
-                  Contact Us
-                </Nav.Link> */}
               </Nav>
             </Navbar.Collapse>
           </Container>
         </Navbar>
-        <button
-          type="button"
+        <Button
+        variant="primary"
+          size="sm"
           onClick={clickContactUs}
           bg="none"
-          className="btn btn-primary contact-us-header col-2 primary"
+          className="contact-us-header col-1"
         >
           Contact us
           {/* <Nav.Link  as={Link} to="/contact">
             Contact Us
           </Nav.Link> */}
-        </button>
+        </Button>
       </header>
       <main className="root-container">
         <Outlet />

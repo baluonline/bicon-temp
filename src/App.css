@@ -83,6 +83,9 @@ main {
   margin: 10px;
   margin-inline: auto;
 }
+.contactus-form{
+  display: table-caption;
+}
 
 @media screen and (max-width: 600px) {
   .contact-us-header {
@@ -92,3 +95,4 @@ main {
     margin-inline: auto;
   }
 }
+
