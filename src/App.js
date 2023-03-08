@@ -24,13 +24,13 @@ import { StrictMode } from "react";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route exact path="/" element={<RootLayout />}>
-      <Route exact path="/" index element={<Home />} />
-      <Route path="/technology" element={<Technology />} />
-      <Route path="/consulting" element={<Consulting />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/about" element={<About />} />
-      <Route path="help" element={<HelpLayout />}>
+    <Route exact path="/bicon-temp" element={<RootLayout />}>
+      <Route exact path="/bicon-temp" index element={<Home />} />
+      <Route path="/bicon-temp/technology" element={<Technology />} />
+      <Route path="/bicon-temp/consulting" element={<Consulting />} />
+      <Route path="/bicon-temp/contact" element={<Contact />} />
+      <Route path="/bicon-temp/about" element={<About />} />
+      <Route path="/bicon-temp/help" element={<HelpLayout />}>
         <Route path="faq" element={<Faq />} />
         <Route path="contact" element={<Contact />} />
       </Route>
