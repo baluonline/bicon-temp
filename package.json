@@ -2,8 +2,8 @@
   "name": "react-bicon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://biconusa.com/bicon-temp/",
-  "proxy": "https://localhost:3000/bicon-temp",
+  "homepage": "https://biconusa.com/",
+  "proxy": "https://localhost:3000",
   "author": "Bicon Systems",
   "dependencies": {
     "@babel/core": "^7.8.7",
