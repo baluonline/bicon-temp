@@ -10,30 +10,30 @@ import Button from 'react-bootstrap/Button';
 export default function RootLayout() {
   const navigate = useNavigate();
   const clickContactUs = () => {
-    navigate("/portal/contact")
+    navigate("/contact")
   }
   return (
     <div className="root-layout">
       <header className="col-12 d-flex">
         <Navbar className="col-12 " bg="light" expand="lg">
           <Container>
-            <img href="/portal" className="App-logo" src={logo} />
-            <Navbar.Brand as={Link} to="/portal">
+            <img href="/" className="App-logo" src={logo} />
+            <Navbar.Brand as={Link} to="/">
               Bicon
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link as={Link} to="/portal">
+                <Nav.Link as={Link} to="/">
                   Home
                 </Nav.Link>
-                <Nav.Link as={Link} to="portal/technology">
+                <Nav.Link as={Link} to="/technology">
                   Techonology
                 </Nav.Link>
-                <Nav.Link as={Link} to="/portal/consulting">
+                <Nav.Link as={Link} to="/consulting">
                   Consulting
                 </Nav.Link>
-                <Nav.Link as={Link} to="/portal/about">
+                <Nav.Link as={Link} to="/about">
                   About Us
                 </Nav.Link>
               </Nav>
